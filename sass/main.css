@@ -1,0 +1,94 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: sans-serif helvetica;
+  font-size: 16px;
+  color: white;
+  background-color: rgba(8, 151, 218, 0.644);
+}
+
+body .containers {
+  margin: 100px auto auto auto;
+  max-width: 600px;
+  max-height: 800px;
+  border-left-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-color: #02022c;
+  border-radius: 20px;
+}
+
+body .containers .top {
+  height: 80px;
+  background-color: #02022c;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  padding: 20px;
+}
+
+body .containers .top .input-field {
+  margin: 0 auto;
+  width: 300px;
+}
+
+body .containers .top .input-field .input {
+  height: 20px;
+  width: 200px;
+  padding: 5px;
+  background-color: #dad6d6;
+}
+
+body .containers .bottom {
+  margin: 0;
+  min-height: 200px;
+  background-color: #dad6d6;
+  padding: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  color: #02022c;
+}
+
+body .containers .item {
+  width: 550px;
+  height: 20px;
+  margin: 10px 0 10px 0;
+  color: #02022c;
+  padding: 8px;
+  border-left-style: solid;
+}
+
+body .containers .item .item-text {
+  display: inline-block;
+  width: 400px;
+  height: 20px;
+}
+
+body .containers .item .form {
+  display: inline-block;
+}
+
+body .containers .item .form .checkbox {
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+}
+
+body .containers h1, body .containers h2 {
+  text-align: center;
+}
+
+body .containers .btn {
+  width: 70px;
+  height: 30px;
+  color: #02022c;
+  background-color: white;
+  border-radius: 10px;
+  outline: none;
+  font-weight: bolder;
+  font-size: 15px;
+  display: inline-block;
+}
+/*# sourceMappingURL=main.css.map */
